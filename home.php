@@ -4,7 +4,10 @@
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+   <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+   <meta http-equiv="X-WebKit-CSP" content="default-src 'self'; script-src 'self'">
+   <title>Home</title>
   <style>
    ul {
     list-style-type: none;
