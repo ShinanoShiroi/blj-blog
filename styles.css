@@ -1,0 +1,76 @@
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:gray;
+  position: sticky;
+  width: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.active, .submit{
+  background-color: #b200d6;
+} 
+
+.submit {
+  width: 100px;
+  height: 42px;
+  color: white;
+}
+
+.created-by {
+  color: blue;
+  font-style: italic;
+}
+
+.post-title {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.post-border{
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color:silver;
+}
+
+.created-at {
+  color: red;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.post-text {
+  font-size: 18px;
+}
+
+.created-at, .created-by {
+  text-align: center;
+}
+
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FMeme-Wallpapers.jpg&f=1&nofb=1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
