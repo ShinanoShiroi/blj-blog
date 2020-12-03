@@ -69,8 +69,47 @@ li a:hover {
 }
 
 body {
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FMeme-Wallpapers.jpg&f=1&nofb=1);
+  background-image: url('images/fancyimage.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+
+.links {
+  border: 2px solid black;
+  background-color:  #eb88ff;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 200px;
+}
+
+.links :hover{
+  background: linear-gradient(to right, rgb(255, 0, 128), rgb(255, 255, 255), rgb(255, 0, 157), rgb(255, 255, 255), rgb(255, 0, 179));
+  color: black;
+}
+
+#strong {
+  font-weight: bold;
+}
+
+.image-url {
+  max-width: 300px;
+}
+
+.blog-homepage {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color:white;
+
+}
+
+.fancy {
+  background-image: url('images/fancytree.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+

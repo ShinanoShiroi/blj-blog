@@ -10,12 +10,19 @@ $dbConnection = new PDO("mysql:host=mysql2.webland.ch;dbname=d041e_listuder", $d
 $sqlQuery = $dbConnection->query("SELECT * FROM `blog_url`");
 $urls = $sqlQuery->fetchAll();
 
+// var_dump($urls);
 
 echo '<h1>Blogs meiner BLJ-Kollegen</h1>';
 
 foreach($urls as $url) {
-    $link = '<a href="' . $url["blogUrl"] . '" target="_blank">' . $url["blogAuthor"] . '\'s Blog' . '</a>' . '<br>';
+    ?>
+    <div class="links">
+    <?php
+    $link = '<a href="' . htmlspecialchars($url["blogUrl"] ). '" target="_blank">' . htmlspecialchars($url["blogAuthor"]) . '\'s Blog' . '</a>' . '<br>';
 
    echo $link;
+   ?>
+   </div>
+   <?php
 } 
 ?>
